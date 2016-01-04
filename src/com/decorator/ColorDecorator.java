@@ -7,6 +7,7 @@ public class ColorDecorator extends RoomDecorator {
 	}
 
 	public String displayRoom() {
+		System.out.println("");
 		return super.displayRoom() + addColors();
 	}
 
